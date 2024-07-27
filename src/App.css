@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+}
+
+.product-container {
+  width: 200px;
+  border: 1px solid rgb(211, 190, 190);
+  border-radius: 4px;
+}
+
+.img-style {
+  width: 200px;
+  height: 150px;
+}
+
+.text-container {
+  margin: 0 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
